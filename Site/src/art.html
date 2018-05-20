@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>JLee | Art</title>
+  <link href="https://fonts.googleapis.com/css?family=Heebo|Oswald" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'/></script>
+</head>
+<body>
+  
+	<nav class="navbar navbar-fixed-top">
+		<div class="header container-fluid">
+			<div class="navbar-header">
+				<img src="images/logo_new.png" alt="Justyn Lee Logo" height="50" width="50" style="margin:auto">
+				<span class='col offset-1 title_sub'>Helping you learn something new every day...</span>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class='nav-item'><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+				<li class='nav-item'><a href="blog.html"><span class="glyphicon glyphicon-list-alt"></span> Blog</a></li>
+				<li class='nav-item active'><a href="#"><span class="glyphicon glyphicon-picture"></span> Art</a></li>
+				<li class='nav-item'><a href="aboutme.html"><span class="glyphicon glyphicon-user"></span> About Me</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid main">
+		<div class='row'>
+			<div class='content-tile col-md-12'>
+				<h2>About this Blog</h2>
+				<p>Welcome to my blog. However you found me, I’m glad you’ve made it here. I did not start this blog because I believe my thoughts are profound and need to be shared with the world. I believe that learning is one of the most amazing gifts we have as humans. I love learning new things, and I want to share that love of learning with others.</p>
+				<p>In this blog you will find random topics of things that I find interesting. Full disclosure, I love sports and math so there will be a decent amount on these topics. If that’s not your cup of tea, I also plan to cover topics that make you think, provide insight into how the world works, and maybe show you a different perspective on something you’re already familiar with.</p>
+				<p>There is so much out there to learn. You could study your entire life and still not come close to knowing everything there is to know. But that doesn’t mean you shouldn’t try. If there is a motto or theme, it would be “learn something new every day.” It could be something as simple as “the color orange was named after the fruit, not vice versa,” something that subverts what you’ve been told like, “there is a word that rhymes with orange: sporange,” or something more complex like, “the word ‘orange’ in binary is 01101111 01110010 01100001 01101110 01100111 01100101.”</p>
+				<p>Okay, but what’s the point of learning something silly and useless like that? Well maybe nothing at first, but the amount of knowledge you can accumulate over time is astounding. And that knowledge could help you or someone else down the road, will help keep your brain sharp, and is great for small talk. If you learned just one thing every day for 30 years, you would know almost 11,000 things you generally would not have otherwise. Chances are not all 11,000 will be irrelevant and useless.</p>
+				<p>So if this intrigues you, let me help you learn something new every day…</p>
+			</div>
+		</div>
+	</div>
+	<div class='container-fluid footer'>
+		<div class='row'>
+			<div class='col-md-4 col-md-offset-4'>
+				<span>&copy; Justyn Lee</span></br>
+				<span id='year'></span>
+			</div>
+			<div class='col-md-4 social-media'>
+				<a target="_blank" href="https://www.linkedin.com/in/justyn-lee-436b852b/" class="fa fa-linkedin"></a>
+				<a target="_blank" href="https://www.facebook.com/justyn.lee.9" class="fa fa-facebook"></a>
+				<a target="_blank" href="https://www.youtube.com/channel/UCfdQBKDOCfjMbMKfkPVnfTg" class="fa fa-youtube"></a>
+				<a target="_blank" href="https://www.instagram.com/jelly4413/" class="fa fa-instagram"></a>
+			</div>
+		</div>
+	</div>
+	<script type='text/javascript'>
+		$(document).ready(function() {
+			$('#year').html((new Date()).getFullYear());
+		});
+	</script>
+</body>
+</html>
